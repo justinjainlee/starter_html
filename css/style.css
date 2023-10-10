@@ -1,0 +1,37 @@
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ddd;
+    background-size: cover;
+    padding: 25px 0; 
+    text-align: left;
+  }
+
+nav li{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    padding-right: 20px;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li:hover{
+    text-decoration: underline;
+    background-color: blue;
+}
+
+
+div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+h2{
+    grid-column : 1 / -1;
+}
